@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="7dp"
+    android:maxWidth="310dp"
+    android:maxHeight="500dp"
+    android:minHeight="40dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:id="@+id/total_rs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_receive"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:paddingLeft="10dp">
+
+
+            <TextView
+                android:id="@+id/receiverText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"
+
+                android:inputType="textLongMessage|textMultiLine"
+                android:maxWidth="270dp"
+                android:minWidth="50dp"
+                android:text="TextView"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toTopOf="@+id/receiverTime"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guideline2"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/receiverTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="17dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginBottom="3dp"
+
+                android:text="15:56 pm"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="16dp" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/image_sent"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+        </ImageView>
+
+    <ImageView
+        android:id="@+id/btn_audio_play"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+
+        android:background="@drawable/bg_story"
+        android:src="@drawable/play">
+
+    </ImageView>
+
+
+        <ImageView
+            android:id="@+id/btn_audio_pause"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_story"
+            android:src="@drawable/pause"></ImageView>
+
+<!--    <VideoView-->
+<!--        android:id="@+id/videoView2"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="400dp" />-->
+
+
+
+    </RelativeLayout>
+</LinearLayout>
+
+

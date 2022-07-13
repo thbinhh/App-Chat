@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Setting" >
+        <menu>
+    <item android:id="@+id/Block"
+        android:icon="@drawable/ic_baseline_lock_24"
+        android:title="Block" />
+    <item android:id="@+id/UnBlock"
+        android:icon="@drawable/ic_baseline_lock_open_24"
+        android:title="UnBlock" />
+    <item android:id="@+id/BlockChat"
+        android:icon="@drawable/ic_baseline_comments_disabled_24"
+        android:iconTint="@color/black"
+        android:title="Block Chat" />
+    <item android:id="@+id/UnBlockChat"
+        android:icon="@drawable/ic_baseline_comment_24"
+        android:title="UnBlock Chat" />
+        </menu>
+    </item>
+
+
+
+
+
+</menu>

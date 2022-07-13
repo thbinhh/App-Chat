@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Account" >
+        <menu>
+    <item android:id="@+id/settings"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings" />
+            <item android:id="@+id/changepassword"
+                android:hardwareAccelerated="false"
+                android:largeHeap="true"
+                android:theme="@style/AppTheme"
+                android:iconTintMode="add"
+                android:icon="@drawable/ic_baseline_lock_reset_24"
+                android:title="Change Password" />
+        </menu>
+    </item>
+
+    <item android:title="More">
+
+    <menu>
+        <item android:id="@+id/findFriend"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme"
+            android:iconTintMode="src_over"
+            android:icon="@drawable/ic_baseline_group_24"
+            android:title="Find Friend"/>
+
+        <item android:id="@+id/aboutus"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:title="About Us" />
+
+        <item android:id="@+id/logout"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="Logout" />
+
+        <item android:id="@+id/delete"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true"
+            android:theme="@style/AppTheme"
+            android:icon="@drawable/ic_baseline_clear_24"
+            android:title="Delete" />
+
+    </menu>
+    </item>
+
+    <item android:title="Status" >
+        <menu>
+
+            <item android:id="@+id/ngu"
+                android:hardwareAccelerated="false"
+                android:largeHeap="true"
+                android:theme="@style/AppTheme"
+                android:iconTint="@color/black"
+                android:icon="@drawable/ic_baseline_hotel_24"
+                android:title="Sleeping" />
+
+            <item android:id="@+id/ranh"
+                android:hardwareAccelerated="false"
+                android:largeHeap="true"
+                android:theme="@style/AppTheme"
+                android:icon="@drawable/ic_baseline_lyrics_24"
+                android:title="Free" />
+
+            <item android:id="@+id/lamviec"
+                android:hardwareAccelerated="false"
+                android:largeHeap="true"
+                android:theme="@style/AppTheme"
+                android:icon="@drawable/ic_baseline_home_work_24"
+                android:title="Working" />
+        </menu>
+    </item>
+
+    <item android:title="Story" >
+        <menu>
+
+            <item android:id="@+id/story"
+                android:hardwareAccelerated="false"
+                android:largeHeap="true"
+                android:theme="@style/AppTheme"
+                android:icon="@drawable/ic_baseline_auto_stories_242"
+                android:title="Create Story">
+
+            </item>
+
+            <item android:id="@+id/delete_story"
+                android:hardwareAccelerated="false"
+                android:largeHeap="true"
+                android:theme="@style/AppTheme"
+                android:icon="@drawable/ic_baseline_delete_forever_24"
+                android:title="Delete Story">
+
+            </item>
+        </menu>
+    </item>
+
+</menu>
